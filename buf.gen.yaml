@@ -1,0 +1,6 @@
+version: v1
+plugins:
+  - plugin: buf.build/protocolbuffers/java
+    out: app/src/main/java
+  - plugin: buf.build/bufbuild/connect-kotlin
+    out: app/src/main/java
