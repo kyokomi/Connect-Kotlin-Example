@@ -60,6 +60,12 @@ dependencies {
     implementation(libs.ui.graphics)
     implementation(libs.ui.tooling.preview)
     implementation(libs.material3)
+
+    implementation(libs.protobuf.java)
+    implementation(libs.okhttp)
+    implementation(libs.connect.kotlin)
+    implementation(libs.connect.kotlin.okhttp)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
